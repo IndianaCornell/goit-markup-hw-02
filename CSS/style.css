@@ -1,0 +1,173 @@
+:root {
+  --header-color: #ffffff;
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #2196f3;
+}
+body {
+  font-family: 'roboto';
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ----------------------header---------------------- */
+
+.logo {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1, 2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.logo-web {
+  color: var(--third-text-color);
+}
+
+.main-navigation:hover,
+.main-navigation:focus {
+  color: var(--third-text-color);
+}
+.main-navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--third-text-color);
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--third-text-color);
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+/* ----------------------main---------------------- */
+.main {
+  background-color: #2f303a;
+}
+
+.main-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+
+.btn:hover,
+.btn:focus,
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+  background-color: var(--third-text-color);
+}
+
+/* ----------------------feature---------------------- */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+
+  color: var(--second-text-color);
+}
+
+/* ----------------------about us---------------------- */
+.about-us-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ----------------------our team---------------------- */
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team-names {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.our-team-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* ----------------------our team---------------------- */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71px;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.logo-second {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1, 2;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
