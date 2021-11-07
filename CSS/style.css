@@ -193,3 +193,38 @@ body {
   font-style: normal;
   color: var(--fotter-adress);
 }
+
+/* ----------------------portfolio---------------------- */
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--third-text-color);
+  color: var(--header-color);
+}
+.btn-filter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.projects-titles {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.projects-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
