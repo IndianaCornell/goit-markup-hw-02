@@ -6,6 +6,7 @@
 }
 body {
   font-family: 'roboto';
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -20,7 +21,7 @@ body {
 
 .logo {
   font-family: Raleway;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 2;
   letter-spacing: 0.03em;
